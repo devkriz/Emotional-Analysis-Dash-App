@@ -9,6 +9,7 @@ import plotly.express as px
 external_stylesheets = ['https://fonts.googleapis.com/icon?family=Material+Icons']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 gradient_bg = "linear-gradient(to top left, #753682 0%, #bf2e34 100%)"
 
